@@ -23,7 +23,6 @@ const Reveal = ({ children }: RevealProps) => {
     }
   }, [isInView, mainControls, slideControls]);
 
-  console.log({ isInView });
   return (
     <div ref={ref}>
       <motion.div

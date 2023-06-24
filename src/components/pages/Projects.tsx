@@ -7,20 +7,24 @@ const Projects = () => {
   return (
     <div className="min-h-screen">
       <Reveal>
-        <h1 className="text-title text-6xl font-bold mb-6">Projects</h1>
+        <h1 className="text-title text-4xl lg:text-6xl font-bold mb-6">
+          Projects
+        </h1>
       </Reveal>
       <Reveal>
-        <div className="mt-28">
-          <h3 className="text-title text-4xl font-bold">Kemampuan</h3>
-          <Reveal>
-            <p className="mt-4">
-              Kemampuan di bidang front-end development, seperti HTML, CSS,
-              JavaScript. Kemampuan di bidang back-end development, seperti PHP,
-              MySQL, dan MongoDB. Pengalaman dalam menggunakan framework seperti
-              React JS, Next JS, dan Laravel. Kemampuan dalam mengembangkan
-              aplikasi mobile menggunakan React Native.
-            </p>
-          </Reveal>
+        <div className="lg:mt-28 mt-10 grid grid-cols-3 gap-2">
+          <div className="flex flex-col border border-secondary rounded-2xl shadow-md shadow-primary h-60">
+            <div>gambar</div>
+            <div className="overflow-auto whitespace-nowrap p-4">
+              <span>
+                Link Github Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Modi, autem tempora mollitia dolor aut quos recusandae
+                molestiae reprehenderit, exercitationem, soluta nulla laboriosam
+                ad? Vero sit minima incidunt optio. Quisquam, ad.
+              </span>
+              <span>Link Website</span>
+            </div>
+          </div>
         </div>
       </Reveal>
     </div>

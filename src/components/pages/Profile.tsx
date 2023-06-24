@@ -40,7 +40,7 @@ const Profile = () => {
       {/* social */}
       <div className="mx-auto mt-10 flex gap-4 mb-24">
         <a
-          href="http://"
+          href="https://www.facebook.com/drackula.blood"
           target="_blank"
           rel="noopener noreferrer"
           title="facebook"
@@ -48,7 +48,7 @@ const Profile = () => {
           <BsFacebook className="hover:text-cyan-600" />
         </a>
         <a
-          href="http://"
+          href="https://www.instagram.com/smartspartacus/"
           target="_blank"
           rel="noopener noreferrer"
           title="instagram"
@@ -56,7 +56,7 @@ const Profile = () => {
           <BsInstagram className="hover:text-red-600" />
         </a>
         <a
-          href="http://"
+          href="https://twitter.com/SmartSparta"
           target="_blank"
           rel="noopener noreferrer"
           title="twitter"

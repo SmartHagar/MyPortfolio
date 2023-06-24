@@ -11,7 +11,9 @@ const MyKontak = () => {
   return (
     <div className="min-h-screen">
       <Reveal>
-        <h1 className="text-title text-6xl font-bold mb-6">Kontak</h1>
+        <h1 className="text-title text-4xl lg:text-6xl font-bold mb-6">
+          Kontak
+        </h1>
       </Reveal>
       <Reveal>
         <p>Ingin membahas website lebih lanjut? Silahkan hubungi saya.</p>
@@ -41,7 +43,7 @@ const MyKontak = () => {
         <div className="mt-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9114.41722985471!2d140.64736705344504!3d-2.6022774504820854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sid!4v1687518536353!5m2!1sen!2sid"
-            width="90%"
+            width="100%"
             height="450"
             allowFullScreen={true}
             loading="lazy"

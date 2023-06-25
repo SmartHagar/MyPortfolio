@@ -7,10 +7,15 @@ import Projects from "@/components/pages/Projects";
 import MyKontak from "@/components/pages/MyKontak";
 
 import { Element } from "react-scroll";
+import Profile from "@/components/pages/Profile";
+import Nav from "@/components/navbar/Nav";
 export default function Home() {
   return (
-    <main>
-      <div>
+    <div className="lg:flex bg-black-100 text-body">
+      <div className="fixed flex justify-center w-full lg:w-auto">
+        <Nav />
+      </div>
+      <div className="flex-1 px-10 lg:pl-48 lg:mr-80 lg:pr-4">
         <Element name="dashboard">
           <Dashboard />
         </Element>
@@ -27,6 +32,9 @@ export default function Home() {
           <MyKontak />
         </Element>
       </div>
-    </main>
+      <div className="hidden xl:block xl:fixed lg:right-0 lg:w-80 lg:h-screen lg:bg-black-200">
+        <Profile />
+      </div>
+    </div>
   );
 }

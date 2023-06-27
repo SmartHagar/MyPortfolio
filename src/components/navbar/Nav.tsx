@@ -11,7 +11,7 @@ import {
 import { Link } from "react-scroll";
 const Nav = () => {
   return (
-    <nav className="lg:mt-[60px] lg:ml-[60px] flex lg:flex-col gap-10 rounded-full items-center px-6 md:py-8 py-4 shadow-lg shadow-primary bg-black-200">
+    <nav className="lg:mt-[60px] lg:ml-[60px] flex lg:flex-col gap-10 rounded-full items-center px-6 lg:py-8 py-4 shadow-md ld:shadow-lg shadow-primary bg-black-200">
       <Link
         to="dashboard"
         spy={true}

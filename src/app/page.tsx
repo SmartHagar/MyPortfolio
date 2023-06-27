@@ -12,7 +12,7 @@ import Nav from "@/components/navbar/Nav";
 export default function Home() {
   return (
     <div className="lg:flex bg-black-100 text-body">
-      <div className="fixed flex justify-center w-full lg:w-auto">
+      <div className="fixed flex justify-center w-full lg:w-auto z-50">
         <Nav />
       </div>
       <div className="flex-1 px-10 lg:pl-48 lg:mr-80 lg:pr-4">

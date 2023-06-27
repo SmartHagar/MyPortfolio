@@ -22,4 +22,14 @@ const storage = axios.create({
   baseURL: url_storage,
 });
 
-export { auth, crud, api, storage, BASE_URL };
+export {
+  auth,
+  crud,
+  api,
+  storage,
+  BASE_URL,
+  url_auth,
+  url_api,
+  url_crud,
+  url_storage,
+};

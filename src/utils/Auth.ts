@@ -13,6 +13,7 @@ const CekAuth = async () => {
       });
       return true;
     } catch (error: any) {
+      Cookies.remove("token");
       return false;
     }
   } else {

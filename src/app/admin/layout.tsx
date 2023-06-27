@@ -1,5 +1,6 @@
 /** @format */
 "use client";
+import AdminNav from "@/components/navbar/AdminNav";
 import CekAuth from "@/utils/Auth";
 import { usePathname, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -16,7 +17,6 @@ function Layout({ children }: Props) {
 
   const fetchAuth = async () => {
     const cekAuth = await CekAuth();
-    console.log({ cekAuth });
     if (!cekAuth) {
       // redirect to login
       router.push("/login");
@@ -38,7 +38,12 @@ function Layout({ children }: Props) {
           Loading...
         </div>
       ) : (
-        children
+        <div className="flex gap-4 overflow-x-hidden w-screen">
+          <div>
+            <AdminNav />
+          </div>
+          <div className="w-full overflow-x-hidden">{children}</div>
+        </div>
       )}
     </div>
   );

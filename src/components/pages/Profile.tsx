@@ -11,7 +11,7 @@ const Profile = () => {
       <div className="mx-auto mt-36">
         <Image
           alt="foto"
-          src="/img/profile.JPG"
+          src="/img/MySelf.jpg"
           width={150}
           height={150}
           style={{
@@ -33,7 +33,7 @@ const Profile = () => {
           Membawa ide menjadi kenyataan dan menghadirkan solusi website yang
           efisien dan efektif.
         </p>
-        <p className="font-bold mt-3">
+        <p className="font-bold mt-3 text-center">
           {"Let's"} build something great together
         </p>
       </div>

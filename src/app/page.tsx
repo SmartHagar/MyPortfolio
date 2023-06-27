@@ -32,7 +32,7 @@ export default function Home() {
           <MyKontak />
         </Element>
       </div>
-      <div className="hidden xl:block xl:fixed lg:right-0 lg:w-80 lg:h-screen lg:bg-black-200">
+      <div className=" xl:block xl:fixed lg:right-0 lg:w-80 lg:h-screen lg:bg-black-200">
         <Profile />
       </div>
     </div>

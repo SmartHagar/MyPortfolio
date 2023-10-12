@@ -48,7 +48,7 @@ const Tentang = () => {
               </p>
               <p className="flex gap-2">
                 <span className="font-bold text-title">No. HP :</span>{" "}
-                <span>081240698196</span>
+                <span>082248931369</span>
               </p>
             </div>
           </Reveal>

@@ -4,10 +4,8 @@
  */
 
 const nextConfig = {
-  output: "export",
   images: {
-    domains: ["127.0.0.1", "back.smarttamalonggehe.my.id"],
-    unoptimized: true,
+    domains: ["127.0.0.1", "back.smart.artgar.my.id"],
   },
 };
 

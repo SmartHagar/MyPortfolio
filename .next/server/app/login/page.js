@@ -542,43 +542,6 @@ const Login = (props)=>{
 
 /***/ }),
 
-/***/ 8107:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _services_baseURL__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(693);
-/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7270);
-/** @format */ /* __next_internal_client_entry_do_not_use__ default auto */ 
-
-const CekAuth = async ()=>{
-    const token = js_cookie__WEBPACK_IMPORTED_MODULE_1__/* ["default"].get */ .Z.get("token");
-    if (token) {
-        try {
-            const response = await (0,_services_baseURL__WEBPACK_IMPORTED_MODULE_0__/* .auth */ .I8)({
-                method: "post",
-                url: `/cek-token`,
-                headers: {
-                    Authorization: `Bearer ${token}`
-                }
-            });
-            return true;
-        } catch (error) {
-            js_cookie__WEBPACK_IMPORTED_MODULE_1__/* ["default"].remove */ .Z.remove("token");
-            return false;
-        }
-    } else {
-        console.log("Token tidak ada");
-        return false;
-    }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CekAuth);
-
-
-/***/ }),
-
 /***/ 8029:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -612,7 +575,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [405,163,446,897,756], () => (__webpack_exec__(7432)));
+var __webpack_exports__ = __webpack_require__.X(0, [405,163,446,897,122,886], () => (__webpack_exec__(7432)));
 module.exports = __webpack_exports__;
 
 })();

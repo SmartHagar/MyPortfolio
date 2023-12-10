@@ -4317,7 +4317,7 @@ const optimizedAppearDataAttribute = "data-" + (0,camel_to_dash/* camelToDash */
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/animation/interfaces/motion-value.mjs + 33 modules
 var motion_value = __webpack_require__(4073);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-will-change/is.mjs
-var is = __webpack_require__(4112);
+var is = __webpack_require__(3043);
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/render/utils/setters.mjs + 2 modules
 var setters = __webpack_require__(6004);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/animation/interfaces/visual-element-target.mjs
@@ -10788,7 +10788,7 @@ function initPrefersReducedMotion() {
 
 
 // EXTERNAL MODULE: ./node_modules/framer-motion/dist/es/value/use-will-change/is.mjs
-var is = __webpack_require__(4112);
+var is = __webpack_require__(3043);
 ;// CONCATENATED MODULE: ./node_modules/framer-motion/dist/es/render/utils/motion-values.mjs
 
 
@@ -13450,7 +13450,7 @@ function isString(v) {
 
 /***/ }),
 
-/***/ 4112:
+/***/ 3043:
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";

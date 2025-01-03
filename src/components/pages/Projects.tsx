@@ -29,6 +29,8 @@ const Projects = () => {
     };
   }, [page, limit]);
 
+  console.log({ dtProject });
+
   return (
     <div className="min-h-screen">
       <Reveal>

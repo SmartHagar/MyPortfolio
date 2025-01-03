@@ -12,7 +12,7 @@ type Props = {
 
 type Store = {
   dtProject: any;
-  setProject: ({ page = 1, limit = 10, search }: Props) => Promise<{
+  setProject: ({ page, limit, search }: Props) => Promise<{
     status: string;
     data?: {};
     error?: {};
@@ -33,7 +33,7 @@ const useProjectApi = create(
             search,
           },
         });
-        set((state) => ({ ...state, dtProject: response.data }));
+        set((state) => ({ ...state, dtProject: response.data.data }));
         return {
           status: "berhasil",
           data: response.data,

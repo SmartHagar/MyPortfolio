@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://smart.satgar.my.id/sitemap.xml

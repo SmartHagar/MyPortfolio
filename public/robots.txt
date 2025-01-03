@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://smart.satgar.my.id
+
+# Sitemaps
+Sitemap: https://smart.satgar.my.id/sitemap.xml

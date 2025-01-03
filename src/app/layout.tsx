@@ -6,6 +6,17 @@ import Nav from "@/components/navbar/Nav";
 export const metadata = {
   title: "Smart Tamalonggehe",
   description: "Portfolio Smart Tamalonggehe",
+  keywords: [
+    "pemrograman",
+    "website",
+    "php",
+    "laravel",
+    "reactjs",
+    "nextjs",
+    "tailwindcss",
+    "css",
+    "html",
+  ],
 };
 
 export default function RootLayout({

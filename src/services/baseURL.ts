@@ -2,8 +2,7 @@
 
 import axios from "axios";
 
-const BASE_URL = "https://back.smart.artgar.my.id";
-// const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 const url_auth = `${BASE_URL}/auth`;
 const url_api = `${BASE_URL}/api`;
 const url_crud = `${BASE_URL}/crud`;

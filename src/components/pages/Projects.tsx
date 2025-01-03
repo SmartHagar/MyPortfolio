@@ -37,7 +37,7 @@ const Projects = () => {
         </h1>
       </Reveal>
       <div className="lg:mt-28 mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-        {dtProject?.data &&
+        {dtProject?.data?.length > 0 &&
           dtProject.data.map((item: any) => (
             <div key={item.id}>
               <Reveal>
